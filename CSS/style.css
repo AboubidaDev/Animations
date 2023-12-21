@@ -1,0 +1,146 @@
+ body {
+     width: 380px;
+     overflow: hidden;
+ }
+ .div {
+     width: 100px;
+     height: 100px;
+     left: 5%;  
+     position: absolute;
+     animation-name: left_to_right;
+     animation-duration: 20s;
+     top: 50px;
+     animation-timing-function: ease-in-out;
+     animation-iteration-count: 1;
+     animation-fill-mode: forwards;
+ }
+ .div1 {
+    width: 100px;
+    height: 100px;
+    left: 5%;  
+    position: absolute;
+    animation-duration: 50s;
+    top: 50px;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+ .div2 {
+     width: 100px;
+     height: 100px;
+     left:90%;
+     position: absolute;
+     top: 50px;
+     animation-duration: 3s;
+     animation-delay: 3s;
+     animation-timing-function: ease-in-out;
+     animation-iteration-count: 1;
+     animation-fill-mode: forwards;
+     
+ }
+
+ .div3 {
+     width: 100px;
+     height: 100px;
+     left: 5%;
+     position: absolute;
+     animation-duration: 3s;
+     animation-delay: 6s;
+     top: 250px;
+     animation-timing-function: ease-in-out;
+     animation-iteration-count: 1;
+     animation-fill-mode: forwards;
+ }
+
+ .div4 {
+    width: 100px;
+    height: 100px;
+    left:90%;
+    position: absolute;
+    animation-duration: 3s;
+    top: 250px;
+    animation-delay: 9s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+ }
+
+ .div5 {
+    width: 100px;
+    height: 100px;
+    left: 5%;
+    position: absolute;
+    animation-duration: 3s;
+    top: 450px;
+    animation-delay: 12s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+ }
+
+ .div6 {
+    width: 100px;
+    height: 100px;
+    left:90%;
+    position: absolute;
+    animation-duration: 3s;
+    top: 450px;
+    animation-delay: 15s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+ }
+
+ .div7 {
+    width: 100px;
+    height: 100px;
+    left: 5%;
+    position: absolute;
+    animation-duration: 3s;
+    top: 650px;
+    animation-delay: 12s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+ }
+
+ .div8 {
+    width: 100px;
+    height: 100px;
+    left:90%;
+    position: absolute;
+    animation-duration: 3s;
+    top: 650px;
+    animation-delay: 15s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+ }
+
+ @keyframes left_to_right {
+        0%   {left: 8%; top: 50px; }
+        10%  { left: 86%; top: 50px; }
+        20%  { left: 86%; top: 250px; }
+        30%  {left: 8%; top: 250px; }
+        40%  {left: 8%; top: 450px; }
+        50%  {left: 86%; top: 450px; }
+        60%  {left: 86%; top: 650px; }
+        70%  {left: 4%; top: 650px;}
+        80%  {left: 4%; top: 650px; }
+        90%  {left: 4%; top: 650px; }
+        100% {left: 4%; top: 650px; }
+    }
+ 
+
+ /* @keyframes right_to_left {
+     0% {
+         background-color: yellow;
+         left: 90%;
+     }
+
+     100% {
+         background-color: red;
+         left: 5%;
+     }
+ } */
